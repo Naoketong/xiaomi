@@ -277,6 +277,10 @@ body{
 	height: 50px;
 	border: 1px #e0e0e0 solid;
 	border-right: none;
+	outline: none;
+	padding-left: 10px;
+	font-size: 18px;
+
 }
 .header-scarch .search-form .search-text:hover{
 	border: 1px #b0b0b0 solid;
@@ -1825,23 +1829,28 @@ color: rgba(255,255,255,0.6);
 	margin-right: 6px;
 }
 .site-info{
+	height: 165px;
 	padding-top: 30px;
 	background-color: #fafafa;
 }
 .info-contianer{
 	width: 1226px;
+	height: 57px;
   font-size: 12px;
   position: relative;
 }
-.info-contianer .logo-ir img{
-	float: left;
-  width: 57px;
-  height: 57px;
-  margin-right: 10px;
-  text-indent: -9999px;
+.logo-bottom{
+	display: inline-block;
+	width: 57px;
+	height: 57px;
+	vertical-align: top;
+	margin-right: 10px;
+	background-image:url(../img/footer-logo.png);
+	text-indent: -9999px;
 }
+
 .info-text{
-	float: left;
+	display: inline-block;
   color: #b0b0b0;
 }
 .info-text .info-sites{
@@ -1877,7 +1886,9 @@ color: rgba(255,255,255,0.6);
 	color: #ff6700;
 }
 .info-links{
-	float: right;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
 	margin-bottom: 60px;
 }
 .info-links img{
@@ -1891,8 +1902,12 @@ color: rgba(255,255,255,0.6);
 .slogan{
 	display: block;
 	margin:0 auto;
-	margin-bottom: 35px;
+	margin-top: 30px;
+	padding-bottom: 35px;
 	clear: both;
   width: 267px;
   height: 19px;
+  background-image: url(../img/slogan2018.png);
+  background-repeat: no-repeat;
 }
+
