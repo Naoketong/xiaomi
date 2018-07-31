@@ -462,7 +462,7 @@ body{
 	width: 1225.99px;
 	height: 459.98px;
 }
-.home-hero-container .home-hero-slider .site-category{
+.home-hero-container .site-category{
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -510,7 +510,7 @@ body{
 	color: #ffffff;
 }
 
-.home-hero .home-hero-slider .children{
+.children{
   display:none;
   position: absolute;
   top: -20px;
@@ -526,32 +526,32 @@ body{
 .home-hero-container .site-category-list .category-item:hover .children {
 	display: inline-block;
 }
-.home-hero .home-hero-slider .children-list{
+.children-list{
   width: 248px;
   height: 458px;
   list-style: none;
   margin: 0;
   float: left;
 }
-.home-hero .home-hero-slider .children-list .link{
+ .children-list .link{
 	display: inline-block;
   width: 248px;
   height: 76.33px;
   padding:0px 20px;
 }
-.home-hero .home-hero-slider .children-list .thumb{
+ .children-list .thumb{
 	display: inline-block;
   width: 40px;
   height: 40px;
   margin-right: 12px;
   vertical-align: middle;
 }
-.home-hero .home-hero-slider .children-list .text{
+ .children-list .text{
   font-size:;
   line-height: 76.33px;
   color: black;
 }
-.home-hero .home-hero-slider .children-list .text:hover{
+ .children-list .text:hover{
   color: #ff6700;
 }
 
@@ -813,43 +813,43 @@ body{
  		position: absolute;	
  		right: -10px;
  	}
- 	.item-rainbow-item-1{
+ 	.xm-rainbow-tiem{
  		width: 234px;
  		height: 340px;
  		float: left;
  		margin-right: 14px;
  	}
- 	.box-bd .xm-goods-list .item-rainbow-item-1:nth-child(2){
+ 	.box-bd .xm-goods-list .xm-rainbow-tiem:nth-child(2){
  		border-top:1px #ffac13 solid; 
  	}
- 	.box-bd .xm-goods-list .item-rainbow-item-1:nth-child(3){
+ 	.box-bd .xm-goods-list .xm-rainbow-tiem:nth-child(3){
  		border-top:1px #83c44e solid; 
  	}
- 	.box-bd .xm-goods-list .item-rainbow-item-1:nth-child(4){
+ 	.box-bd .xm-goods-list .xm-rainbow-tiem:nth-child(4){
  		border-top:1px #2196f3 solid; 
  	}
- 	.box-bd .xm-goods-list .item-rainbow-item-1:nth-child(5){
+ 	.box-bd .xm-goods-list .xm-rainbow-tiem:nth-child(5){
  		border-top:1px #e53935 solid; 
  		margin-right: 0;
  	}
-	.item-rainbow-item-1 .bg{
+	.xm-rainbow-tiem .bg{
     width: 234px;
     height: 340px;
     display: inline-block;
     background-color: rgba(0,0,0,0.02);  
     text-align: center;
   }
-  .item-rainbow-item-1 .bg img{
+  .xm-rainbow-tiem .bg img{
   	width: 160px;
   	height: 166px;
   	margin-bottom:22px;
   }
-  .item-rainbow-item-1 .bg h3{
+  .xm-rainbow-tiem .bg h3{
   	color: #212121;
   	margin-top: 25px;
   }
 
-  .item-rainbow-item-1 .bg .desc{
+  .xm-rainbow-tiem .bg .desc{
   	height:20px;
     margin: 5px 20px 12px;
     font-size: 12px;
@@ -858,11 +858,11 @@ body{
     overflow: hidden;
     color: #b0b0b0;
   }
-  .item-rainbow-item-1 .bg .price{
+  .xm-rainbow-tiem .bg .price{
   	margin: 0;
     color: #ff6709;
   }
-  .item-rainbow-item-1 .bg del{
+  .xm-rainbow-tiem .bg del{
   	color: #b0b0b0;
   	margin-left: 8px;
   }
@@ -1035,7 +1035,7 @@ body{
 		margin-left: 10px;
 	}
 	.home-brick-row .row-hd .row-more a{
-		color: #333;
+		color: #424242;
 	}
 	.home-brick-row .row-hd .row-more a:hover{
 		color: #ff6700;
@@ -1065,140 +1065,154 @@ body{
 	}
 
 	.brick-list{
-			width: 992px;
-			height: 614px;
-			position: absolute;
-			top: 58px;
-			right: 0;
+		width: 992px;
+		height: 614px;
+		position: absolute;
+		top: 58px;
+		right: 0;
 		}
-		.brick-list .brick-item{
-			display: inline-block;
-			width: 234px;
-			height: 300px;
-			float: left;
-			background-color: #fff;
-			margin-left: 14px;
-			margin-bottom:14px;
-			text-align: center;
-		}
-		.brick-list .brick-item img{
-			display: block;
-			width: 150px;
-			height: 150px;
-		}
-		.brick-list .brick-item a{
-			display: inline-block;
-			color: #333;
-			margin-top: 20px
-		}
-		.brick-list .brick-item .desc{
-			margin: 0 10px 10px;
-    		font-size: 12px;
-    		text-align: center;
-    		text-overflow: ellipsis;
-    		white-space: nowrap;
-    		overflow: hidden;
-    		color: #b0b0b0;
-		}
-		.brick-list .brick-item .price{
-			margin: 0 10px 10px;
-    		text-align: center;
-   			color: #ff6700;
-		}
-		.brick-list .brick-item .price del{
-			color: #b0b0b0;
-			margin-left: 4px;
-		}
-		.brick-list .brick-item .evealuate{
-			display:none;
-			width: 234px;
-			height:85px;
-			background-color: #ff6700;
-			color: #fff;
-			position: absolute;
-			bottom: 0;
-			left: 0;
-		}
-		.brick-list .brick-item:hover{
-			box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
-			transition: all .1s linear;
-			transform: translateY(-2px)
-		}
-		.brick-list .brick-item:hover .evealuate{
-			display: inline-block;	
-		}
-		
-		.brick-list .brick-item-s{
-			float: left;
-			width: 234px;
-			height: 143px;
-			margin: 0 0 14px 14px;
-			background-color: #fff;
-		} 
-		.brick-list .brick-item-s i{
-			margin-top: 35px;
-			margin-left: 20px;
-			color: #ff6700;
-		}
-		.brick-list .brick-item-s:nth-child(2){
-			margin-bottom: 0;
-		}
-		.brick-list .brick-item-s:hover{
-			box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
-			transition: all .1s linear;
-			transform: translateY(-2px)
-		}
-		.brick-list .brick-item-s .tite{
-			float: left;
-			display: inline-block;
-			width: 94px;
-			height: 80px;
-			margin: 30px 0 0 30px ;
-		}
-		.brick-list .brick-item-s .exposure{
-			display: inline-block;
-			color: #333;
-			line-height: 14px;
-		}
-		
-		.brick-list .brick-item-s .price{
-			display: inline-block;
-			color: #ff6700;
-			line-height: 14px;			
-		}
-		.brick-list .brick-item-s img{
-			width: 80px;
-			height: 80px;
-			float: right;
-			margin-top: 30px;
-			margin-right: 20px;
-		}
-		.brick-list .brick-item-s a{
-			display: inline-block;
-			color: black;
-			font-size: 18px;
-			margin-top: 10px;
-		}
-		.brick-list .brick-item-s span{
-			font-size: 12px;
-			color: #757575;
-			display: block;
-			margin-top: 15px;
-		}
+.brick-list .brick-item{
+	display: inline-block;
+	width: 234px;
+	height: 300px;
+	float: left;
+	background-color: #fff;
+	margin-left: 14px;
+	margin-bottom:14px;
+	transition: all .2s ease;
+	overflow: hidden;
+	position: relative;
+}
+.brick-list .brick-item img{
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+.brick-list .brick-item a{
+	display: inline-block;
+	color: #333;
+	margin-top: 20px
+}
+.brick-list .brick-item .desc{
+	margin: 0 10px 10px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #b0b0b0;
+}
+.brick-list .brick-item .price{
+	margin: 0 10px 10px;
+ 	color: #ff6700;
+}
+.brick-list .brick-item .price del{
+	color: #b0b0b0;
+	margin-left: 4px;
+}
+.brick-list .brick-item .evealuate{
+	width: 234px;
+	height:85px;
+	background-color:#ff6700;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translateY(100%);
+ 	transition: all .2s ease;
+}
+.brick-list .brick-item .evealuate p{
+	width: 170px;
+	font-size: 10px;
+	text-align: left;
+	margin-top: 7px;
+}
+.brick-list .brick-item .evealuate span{
+	display: block;
+	font-size: 8px;
+	color: #f0f0f0;
+	margin-top: 6px;
+}
+.brick-list .brick-item:hover{
+	box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
+	transition: all .1s linear;
+	transform: translateY(-2px)
+}
+.brick-list .brick-item:hover .evealuate{
+	transition: all .2s linear;
+	 transform: translateY(0);	
+}
 
-	 .banner-row-brick{
-		display: inline-block;
-		margin: 28px 0 22px;
-	}
-	.banner-row-brick img{
-		width: 1226px;
-		height: 120px;
-	}
+.brick-list .brick-item-s{
+	float: left;
+	width: 234px;
+	height: 143px;
+	margin: 0 0 14px 14px;
+	background-color: #fff;
+} 
+.brick-list .brick-item-s i{
+	margin-top: 35px;
+	margin-left: 20px;
+	color: #ff6700;
+}
+.brick-list .brick-item-s:nth-child(2){
+	margin-bottom: 0;
+}
+.brick-list .brick-item-s:hover{
+	box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
+	transition: all .1s linear;
+	transform: translateY(-2px)
+}
+.brick-list .brick-item-s .tite{
+	float: left;
+	display: inline-block;
+	width: 94px;
+	height: 80px;
+	margin: 30px 0 0 30px ;
+}
+.brick-list .brick-item-s .exposure{
+	display: inline-block;
+	color: #333;
+	line-height: 14px;
+}
+
+.brick-list .brick-item-s .price{
+	display: inline-block;
+	color: #ff6700;
+	line-height: 14px;			
+}
+.brick-list .brick-item-s img{
+	width: 80px;
+	height: 80px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.brick-list .brick-item-s a{
+	display: inline-block;
+	color: black;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.brick-list .brick-item-s span{
+	font-size: 12px;
+	color: #757575;
+	display: block;
+	margin-top: 15px;
+}
+
+.banner-row-brick{
+	display: inline-block;
+	margin: 28px 0 22px;
+}
+.banner-row-brick img{
+	width: 1226px;
+	height: 120px;
+}
 
 
 
 	/*为你推荐111111111111111111111111111111111*/
-	.titlebar-row{
+.titlebar-row{
 	position: relative;
  	width: 1226px;
  	height: 398px;
@@ -1212,11 +1226,11 @@ body{
 }
 .titlebar-row .row-hd .title{
 	display: inline-block;
- 		margin: 0;
- 		font-size: 22px;
- 		line-height: 58px;
- 		font-weight:200;
- 		color: #333;
+ 	margin: 0;
+ 	font-size: 22px;
+ 	line-height: 58px;
+ 	font-weight:200;
+ 	color: #333;
 }
   .titlebar-row .row-hd .more{
  		display: inline-block;
@@ -1808,7 +1822,7 @@ body{
 .site-info{
 	display: inline-block;
 	width: 1226px;
-	background-color: #fff;
+	background-color: #f5f5f5;
   font-size: 12px;
   position: relative;
 }
@@ -1873,6 +1887,7 @@ body{
 	display: block;
 	margin:0 auto;
 	margin-top: 30px;
+	margin-bottom: 35px;
 	clear: both;
   width: 267px;
   height: 19px;
