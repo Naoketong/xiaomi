@@ -668,7 +668,7 @@ body{
   font-size: 0; 
 }
 .home-hero-sub .prono-list li:hover{
-	box-shadow: -1px 0px 30px  #888888;
+	box-shadow: -1px 13px 14px rgba(0,0,0,0.1);
 	transition: all 0.2s;
 }
  .prono-list a{
@@ -966,6 +966,7 @@ body{
 		float: left;
 		margin-left: 14px;
 		margin-bottom: 14px;
+		text-align: center;
 	}
 	.home-brick-box .box-bd .brick-item:hover{
 		box-shadow: -1px 13px 14px rgba(0,0,0,0.1);
@@ -1049,6 +1050,7 @@ body{
 		float: left;
 		
 	}
+
 	.home-brick-row .row-bd img{
 		display: inline-block;
 		font-size: 0;
@@ -1060,7 +1062,7 @@ body{
 		margin: 0px;
 	}
 	.home-brick-row .row-bd img:hover{
-		box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
+		box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 		transition: all .1s linear;
 		transform: translateY(-2px)
 	}
@@ -1083,7 +1085,6 @@ body{
 	transition: all .2s ease;
 	overflow: hidden;
 	position: relative;
-	text-align: center;
 }
 .brick-list .brick-item img{
 	display: block;
@@ -1091,9 +1092,10 @@ body{
 	height: 150px;
 }
 .brick-list .brick-item a{
-	display: inline-block;
+	display:block;
 	color: #333;
 	margin-top: 20px;
+	text-align: center;
 }
 .brick-list .brick-item .desc{
 	margin: 0 10px 10px;
@@ -1117,28 +1119,31 @@ body{
 .brick-list .brick-item .evealuate{
 	width: 234px;
 	height:85px;
+	font-size: 12px;
+	padding: 8px 30px;
 	background-color:#ff6700;
 	color: #fff;
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	overflow: hidden;
 	transform: translateY(100%);
  	transition: all .2s ease;
 }
 .brick-list .brick-item .evealuate p{
-	width: 170px;
-	font-size: 10px;
-	text-align: left;
-	margin-top: 7px;
+	margin-bottom: 5px;
+    color: #fff;
+
 }
 .brick-list .brick-item .evealuate span{
-	display: block;
-	font-size: 8px;
-	color: #f0f0f0;
-	margin-top: 6px;
+color: rgba(255,255,255,0.6);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+	
 }
 .brick-list .brick-item:hover{
-	box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 	transition: all .1s linear;
 	transform: translateY(-2px)
 }
@@ -1163,7 +1168,7 @@ body{
 	margin-bottom: 0;
 }
 .brick-list .brick-item-s:hover{
-	box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 	transition: all .1s linear;
 	transform: translateY(-2px)
 }
@@ -1216,7 +1221,6 @@ body{
 
 
 
-	/*为你推荐111111111111111111111111111111111*/
 .titlebar-row{
 	position: relative;
  	width: 1226px;
