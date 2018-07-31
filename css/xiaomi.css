@@ -44,7 +44,6 @@ body{
 .topbar-nav a:nth-child(9):after{
 	display: none;
 }
-
 .topbar-nav a:hover{
 	color: #ffffff;
 }
@@ -86,7 +85,6 @@ body{
 .topbar-cart:hover .cart-menu{
 	display: inline-block;
 }
-
 .topbar-info{
 	float: right;
 	line-height: 40px;
@@ -120,8 +118,8 @@ body{
 	position: relative;
 	margin-left: 500px;
 	margin-top: 200px;
-	position:relative;
-	left:788px;
+	position:absolute;
+	right:33px;
 	top: 50px;
 	z-index: 10;
 	position: fixed;
@@ -1826,11 +1824,9 @@ color: rgba(255,255,255,0.6);
 .col-contact i{
 	margin-right: 6px;
 }
-
 .site-info{
 	padding-top: 30px;
 	background-color: #fafafa;
-
 }
 .info-contianer{
 	width: 1226px;
@@ -1900,5 +1896,3 @@ color: rgba(255,255,255,0.6);
   width: 267px;
   height: 19px;
 }
-	/*底部底部底部*/
-
