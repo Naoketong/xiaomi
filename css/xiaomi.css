@@ -309,7 +309,9 @@ body{
 	color: #fff;
 	border:none;
 }
+.site-header{
 
+}
 .site-header .search-hot-words{
 	position: absolute;
   top: 14px;
@@ -964,10 +966,9 @@ body{
 		float: left;
 		margin-left: 14px;
 		margin-bottom: 14px;
-		text-align: center;
 	}
 	.home-brick-box .box-bd .brick-item:hover{
-		box-shadow: -1px 13px 14px rgba(0,0,0,0.03);
+		box-shadow: -1px 13px 14px rgba(0,0,0,0.1);
 		transition: all .1s linear;
 		transform: translateY(-2px)
 	}
@@ -1082,6 +1083,7 @@ body{
 	transition: all .2s ease;
 	overflow: hidden;
 	position: relative;
+	text-align: center;
 }
 .brick-list .brick-item img{
 	display: block;
@@ -1091,7 +1093,7 @@ body{
 .brick-list .brick-item a{
 	display: inline-block;
 	color: #333;
-	margin-top: 20px
+	margin-top: 20px;
 }
 .brick-list .brick-item .desc{
 	margin: 0 10px 10px;
@@ -1100,11 +1102,14 @@ body{
   white-space: nowrap;
   overflow: hidden;
   color: #b0b0b0;
+  text-align: center;
 }
 .brick-list .brick-item .price{
 	margin: 0 10px 10px;
  	color: #ff6700;
+ 	text-align: center;
 }
+
 .brick-list .brick-item .price del{
 	color: #b0b0b0;
 	margin-left: 4px;
@@ -1700,7 +1705,7 @@ body{
 	height: 272px;
 	background: #fff;
 	font-size: 0;
-	margin-top: 57px;
+	margin-top: 71px;
 }
 .footer-container{
 	display: inline-block;
@@ -1820,9 +1825,13 @@ body{
 }
 
 .site-info{
-	display: inline-block;
-	width: 1226px;
+	height: 165px;
 	background-color: #f5f5f5;
+
+}
+.info-contianer{
+	width: 1226px;
+	height: 165px;
   font-size: 12px;
   position: relative;
 }
@@ -1831,7 +1840,6 @@ body{
   width: 57px;
   height: 57px;
   margin-right: 10px;
-  
   text-indent: -9999px;
 }
 .info-text{
@@ -1873,7 +1881,6 @@ body{
 .info-links{
 	float: right;
 	margin-bottom: 60px;
-	
 }
 .info-links img{
 	width: auto;
@@ -1891,6 +1898,6 @@ body{
 	clear: both;
   width: 267px;
   height: 19px;
- 
 }
 	/*底部底部底部*/
+
