@@ -1,0 +1,213 @@
+body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+		
+}
+a{
+	text-decoration: none;		
+}
+*{
+}
+
+.site-footer{
+	width: 1226px;
+	height: 272px;
+	background: #fff;
+	font-size: 0;
+	background-color: red;
+	margin-top: 57px;
+}
+.footer-container{
+	display: inline-block;
+	width: 1226px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 27 0;
+	border-bottom: 1px #e0e0e0 solid;
+
+}
+.footer-service{
+	margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-service li{
+	float: left;
+  width: 19.8%;
+  height: 25px;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+.footer-service li:after{
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 18px;
+	background-color: #e0e0e0;
+	vertical-align: middle;
+	position: absolute;
+	top: 31px;
+	right: 0;
+}
+.footer-service li:nth-child(5):after{
+	display: none;
+}
+.footer-service a{
+	font-size: 16px;
+  line-height: 80px;
+  text-align: center;
+  color: #616161;
+}
+.footer-service a:hover{
+	color: #ff6700;
+	transition: color .2s;
+}
+.footer-service i{
+	margin-right: 5px;
+}
+.footer-link{
+	display: inline-block;
+	width: 1226px;
+	height: 192px;
+	background-color: #fff;
+	font-size: 14px;
+}
+.footer-link dl{
+	float: left;
+	width: 160px;
+  height: 112px;
+  margin: 0;
+  margin-top: 30px;
+}
+.footer-link dt{
+	margin: -1px 0 26px;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #424242;
+}
+.footer-link dd{
+	margin: 10px 0 0;
+  font-size: 12px;
+}
+.footer-link a{
+	color: #757575;
+}
+.footer-link a:hover{
+	color: #ff6700;
+}
+.col-contact{
+	float: right;
+  width: 251px;
+  height: 112px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+  margin-top:30px; 
+}
+.col-contact .phone{
+	margin: 0 0 5px;
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+.col-contact p{
+	margin: 0 0 16px;
+  font-size: 12px;
+}
+.col-contact a{
+	display: inline-block;
+	width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  border: 1px solid #ff6700;
+  background: #fff;
+  color: #ff6700;
+}
+.col-contact a:hover{
+	background-color: #ff6700;
+	color: #fff;
+	transform: all .2s;
+}
+.col-contact i{
+	margin-right: 6px;
+}
+
+.site-info{
+	display: inline-block;
+	width: 1226px;
+	background-color: #fff;
+  font-size: 12px;
+  position: relative;
+}
+.info-contianer .logo-ir{
+	float: left;
+  width: 57px;
+  height: 57px;
+  margin-right: 10px;
+  background:url(logo-footer.png); 
+  text-indent: -9999px;
+}
+.info-text{
+	float: left;
+  color: #b0b0b0;
+}
+.info-text .info-sites{
+	margin: 0;
+  line-height: 18px;
+}
+.info-text .info-sites a{
+	color: #757575;
+}
+.info-text .info-sites a:after{
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 14px;
+	background-color: #b0b0b0;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+.info-text .info-sites a:nth-child(14):after{
+	display: none;
+}
+.info-sites a:hover{
+	color: #ff6700;
+}
+.info-text .num{
+	margin: 0;
+  line-height: 18px;
+}
+.info-text .num a{
+	color: #b0b0b0;
+}
+.info-text .num a:hover{
+	color: #ff6700;
+}
+.info-links{
+	float: right;
+	margin-bottom: 60px;
+	
+}
+.info-links img{
+	width: auto;
+  height: 28px;
+}
+.info-links img:nth-child(1){
+	width: 85px;
+	height: 28px;
+}
+.slogan{
+	display: block;
+	margin:0 auto;
+	margin-top: 30px;
+	clear: both;
+  width: 267px;
+  height: 19px;
+  background: url(slogan2016.png);
+  background-repeat: no-repeat;
+}
+
+
+
+

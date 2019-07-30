@@ -1,0 +1,86 @@
+a{
+	text-decoration: none;		
+}
+body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+.home-video-box{
+	width: 1226px;
+	height: 343px;
+}
+.home-video-box .title{
+	width: 1226px;
+	height: 58px;
+}
+.home-video-box .title h2{
+	margin: 0;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+.home-video-box .video-list{
+	width: 1226px;
+	height: 285px;
+}
+.home-video-box .video-list .video-item{
+	float: left;
+  width: 296px;
+  height: 285px;
+  margin-left:14px;
+  margin-bottom: 14px;
+  text-align: center;
+  background: #fff;
+  transition: all .2s linear;
+  position: relative;
+}
+.home-video-box .video-list .video-item:hover{
+	box-shadow: -1px 13px 14px rgba(0,0,0,0.1);
+	transition: all .1s linear;
+	transform: translateY(-2px);
+}
+.home-video-box .video-list .video-item:nth-child(1){
+	margin-left: 0;
+}
+.video-list .video-item img{
+	width: 296px;
+	height: 180px;
+}
+.video-list .video-item h3{
+	margin: 25px 0 6px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #333;
+}
+.video-list .video-item a{
+	color: #333;
+}
+.video-list .video-item p{
+	height: 18px;
+  margin: 0;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.video-list .video-item .play{
+	position: absolute;
+	top: 145px;
+  left: 20px;
+  bottom: 10px;
+  width: 32px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background-color: rgba(0,0,0,0.6);
+  transition: all .2s;
+  overflow: hidden;
+}
+.video-list .video-item .play i{
+	color: #fff;
+}
+.video-list .video-item .play:hover{
+	background-color: #ff6700;
+	border: 2px #ff6700 solid;
+	color: #fff;
+}

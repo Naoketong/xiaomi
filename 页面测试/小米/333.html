@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+	margin: 0 auto;
+	padding:0;
+	box-sizing:border-box;
+}
+	a{
+	text-decoration: none;		
+	}
+	body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+.buzz-box{
+	position: relative;
+ 	width: 1226px;
+ 	height: 473px;
+ 	margin-top: 20px;
+}
+.buzz-box .box-hd{
+ 	width: 1226px;
+ 	height: 58px;
+ 	position: relative;
+ 	-webkit-font-smoothing: antialiased;
+}
+.buzz-box .box-hd .title{
+	display: inline-block;
+ 	margin: 0;
+ 	font-size: 22px;
+ 	line-height: 58px;
+ 	font-weight:200;
+ 	color: #333;
+
+}
+.buzz-box .buzz-list{
+	width: 1226px;
+	height: 415px;
+}
+.buzz-box .buzz-list .box-buzz{
+	float: left;
+	width: 296px;
+	height: 415px;
+	background-color: #fff;
+	margin-top: 0;
+	margin-right: 14px;
+	text-align: center;
+}
+.buzz-box .buzz-list .box-buzz:hover{
+	box-shadow: -1px 13px 14px rgba(0,0,0,0.1);
+	transition: all .1s linear;
+	transform: translateY(-2px);
+}
+.buzz-box .buzz-list .box-buzz:nth-child(4){
+	margin-right: 0;
+}
+.buzz-box .buzz-list .box-buzz img{
+	display: inline-block;
+	width: 296px;
+	height: 220px;
+	margin: 0 0 28px;
+}
+.buzz-box .buzz-list .box-buzz .a{
+	display: inline-block;
+	width: 240px;
+	height: 90px;
+	margin: 0 15px;
+	color: #333;
+}
+.buzz-box .buzz-list .box-buzz .author{
+	height: 18px;
+  margin: 0 28px 8px;
+  padding: 0 10px 0 0;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.buzz-box .buzz-list .box-buzz .price{
+	display: inline-block;
+  margin: 0;
+  color: #ff6700;
+ 
+}
+.buzz-box .buzz-list .box-buzz .link{
+	display: inline-block;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 170px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: bottom;
+  color: #333;
+}
+.buzz-box .buzz-list .box-buzz .link:after{
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 16px;
+	background-color: #e0e0e0;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+  
+
+
+
+	</style>
+</head>
+<body>
+	<div class="buzz-box">
+    <div class="box-hd">
+      <h2 class="title">热评产品</h2>         
+    </div>
+    <div class="buzz-list">
+	    <div class="box-buzz">
+	    	<img src="img/prodcut_31.jpg">
+	    	<a class="a" href="javascript:;">外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最重要的是性价比高。</a>
+	     	<p class="author">来自于 酸小妞~！  的评价</p>
+	     	<a class="link" href="javascript:;">米家车载空气净化器</a><p class="price">449元</p>
+	     </div>
+
+	    <div class="box-buzz">
+	      <img src="img/prodcut_32.jpg">
+	      <a class="a" href="javascript:;">非常好用，孩子使用防止沉迷电子电话影响学习。做工很好，定位基本准确，通话清晰。</a>
+	      <p class="author">来自于 178576295的评价</p>
+	      <a class="link" href="javascript:;">米兔定位电话</a><p class="price">169元</p>
+	    </div>
+	    <div class="box-buzz">
+	    	<img src="img/prodcut_33.jpg">
+	    	<a class="a" href="javascript:;">很小巧 像不喜欢戴活塞的人可以试试这种~很舒服的包装还是一如既往的简洁 要是有盒子就好了</a>
+	      <p class="author">来自于 小不能够好吧  的评价</p>
+	      <a class="link" class="a" href="javascript:;">小米胶囊耳机</a><p class="price">69元</p>
+	    </div>
+	    <div class="box-buzz">
+	    	<img src="img/prodcut_32.jpg">
+	    	<a class="a" href="javascript:;">安装简洁方便，信号不错！！！！！</a>
+	    	<p class="author">来自于 追逆  的评价</p>
+	    	<a class="link" href="javascript:;">小米路由器3</a><p class="price">149元</p>
+	    </div>
+	  </div>
+  </div>
+      
+	
+
+
+</body>
+</html>
